@@ -1,0 +1,97 @@
+/*DESDE AQUÍ FONDO Y MENU*/
+body {
+    font-family: "Courier New";
+}
+#fondo{
+    position: fixed;
+    z-index: -1000;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+#degradado{
+    position: fixed;
+    z-index: 10;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+.menu{
+    z-index: 10;
+    position:fixed;
+    height:12%;
+    width: 100%;
+    bottom: 88%;
+}
+.menuLetra{
+    color: white;
+    margin-left:8%;
+    display: inline;
+    position: static;
+    padding-top:1%;
+    padding-bottom:1%;  
+    font-size: 110%;
+}
+.menuLetra:hover{
+    margin-left: 8%;
+    display: inline;
+    background-color: rgba(248, 209, 165, 0.301);
+    position: static;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.enlace{
+    text-decoration: none;
+}
+.logito{
+    width: 100px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+/*HASTA AQUÍ FONDO Y MENU*/
+/*QUIENES SOMOS*/
+.quienTexto{
+    float: left;
+    width: 30%;
+    padding-right: 2%;
+    padding-left: 1%;
+    margin-top: 27%;
+    margin-left:2%;
+    font-size: 120%;
+    text-align:justify;
+}
+.quienPersona{
+    float:right;
+    width: 55%;
+    z-index: -950;
+    margin-top: 30%;
+    margin-right: 10%;
+}
+#solucion{
+    z-index: -900;
+    margin-left: 20%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 70px;
+}
+#footer{
+    border: 1px solid #7B241C;
+    background-color: #7B241C;
+    color: white;
+    height: 90px;
+    text-align: center;
+}
+#jefa {
+    margin-left: 3%;
+    width: 87%;
+}
+.jefabuena{
+    width: 100%;
+}
+#textoCEO{
+    font-size: 120%;  
+    margin-left: 55%;
+    margin-right: 4%;
+    margin-top: -70%;
+    width: 40%;
+    text-align: justify;
+}

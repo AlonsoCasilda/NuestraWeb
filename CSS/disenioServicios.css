@@ -1,0 +1,125 @@
+/*DESDE AQUÍ FONDO Y MENU*/
+body {
+    font-family: "Courier New";
+}
+#fondo{
+    position: fixed;
+    z-index: -1000;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+#degradado{
+    position: fixed;
+    z-index: -900;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+.menu{
+    position:fixed;
+    height:12%;
+    width: 100%;
+    bottom: 88%;
+}
+.menuLetra{
+    color: white;
+    margin-left:7%;
+    display: inline;
+    position: static;
+    padding-top:1%;
+    padding-bottom:1%;  
+    font-size: 110%;
+}
+.menuLetra:hover{
+    margin-left: 7%;
+    display: inline;
+    background-color: rgba(248, 209, 165, 0.301); 
+    position: static;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.enlace{
+    text-decoration: none;
+}
+hr{
+    width: 75%;
+    background-color: rgb(0, 0, 0);
+    margin-right: 20%;
+}
+.logito{
+    width: 100px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+/*HASTA AQUÍ FONDO Y MENU*/
+/*SERVICIOS*/
+#titulo{
+    text-align: center;
+    font-size: 200%;
+}
+#serviciostext{
+   text-align: justify;
+   font-size: 110%;
+}
+#tituloServicios{
+    font-size: 130%;
+    color: red;
+    text-align: left;
+}
+.losServicios{
+    width: 120%;
+}
+.servicio1{
+    font-size: 110%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+}
+.servicio2{
+    font-size: 110%;
+    display: inline-block;
+    text-align: center;
+    margin-left:5%;
+}
+.servicio3{
+    font-size: 120%;
+    margin-left: -60%;
+    margin-top: 7%;
+    text-align: center; 
+}
+.imagenCampus{
+    margin-top: -11px;
+    width:10%;
+    height: 55%;
+    display: inline-block;
+    position: relative;
+    margin-left: 5%;
+}
+.imagenCampus:hover{
+    width:13%;
+    height: 57%;
+    display: inline-block;
+    position: static;
+    margin-left: 1%;
+}
+#textoCamp{
+    text-align: center;
+}
+#footer{
+    border: 1px solid #7B241C;
+    background-color: #7B241C;
+    color: white;
+    height: 90px;
+    text-align: center;
+    margin-bottom:0%;
+}
+iframe {
+   padding-left: 70px;
+   position: absolute;
+   margin-left: 20px;
+}
+.evento{
+    font-size: 400%;
+    text-align: center;;
+    color: red;
+}

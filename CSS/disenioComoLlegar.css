@@ -1,0 +1,103 @@
+/*DESDE AQUÍ FONDO Y MENU*/
+body{
+    font-family: "Courier New";
+}
+#fondo{
+    position: fixed;
+    z-index: -1000;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+#degradado{
+    position: fixed;
+    z-index: -900;
+    margin-left: -100px;
+    margin-top: -20px;
+    z-index: -900;
+}
+.menu{
+    position:fixed;
+    height:12%;
+    width: 100%;
+    bottom: 88%;
+    z-index: 20;
+}
+.menuLetra{
+    color: white;
+    margin-left:8%;
+    display: inline;
+    position: static;
+    padding-top:1%;
+    padding-bottom:1%;  
+    font-size: 110%;
+}
+.menuLetra:hover{
+    margin-left: 8%;
+    display: inline;
+    background-color: rgba(248, 209, 165, 0.301);
+    position: static;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.enlace{
+    text-decoration: none;
+}
+.logito{
+    width: 100px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+/*HASTA AQUÍ FONDO Y MENU*/  
+/*COMO LLEGAR*/
+.contact{
+    position: absolute;
+    margin-top:11%;
+    margin-left: 10%;
+    padding: 1%;
+    border: 1px solid black;
+}
+.contact:hover{
+    position: absolute;
+    margin-top:11%;
+    margin-left: 10%;
+    padding: 1%;
+    color:rgb(44, 160, 255);
+    border: 1px solid rgb(44, 160, 255);
+}
+.ComoLLegar{
+    position: relative;  
+}
+.formulario{
+    position: static;
+    float: left;
+    margin-top: 22%;
+    margin-left: 10%;
+}
+input{
+    height: 20px;
+    width: 250px;
+    border: 0px;
+    background-color: rgb(197, 232, 255);
+    border-radius: 15px;
+}
+input:hover{
+    height: 20px;
+    width: 350px;
+    background-color: rgb(42, 102, 145);
+    border-radius: 15px;
+}
+#mapa{
+    margin-top: 10%;
+    margin-left: 43%;
+    position: absolute;
+    z-index: -950;
+}
+#footer{
+    border: 1px solid #7B241C;
+    background-color: #7B241C;
+    color: white;
+    height: 90px;
+    text-align: center;
+    margin-top:50%;
+}
